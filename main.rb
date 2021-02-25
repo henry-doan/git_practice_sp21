@@ -7,7 +7,7 @@ class Main
   def menu
     puts 'Main menu'.colorize(:cyan)
     puts '1. Enter git command'.colorize(:green)
-    puts '2) Exit'.colorize(:blue)
+    puts '2. Exit'.colorize(:yellow)
     choice = gets.strip.to_i
     case choice
     when 1
