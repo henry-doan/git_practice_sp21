@@ -1,5 +1,6 @@
 require 'colorize'
 require_relative 'git'
+
 class Main
   include Git
 
